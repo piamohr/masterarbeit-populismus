@@ -1,0 +1,4 @@
+operationalization,feature,feature_label,outcome,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,wcr11_p_value,wcr31_p_value,direction_matches_expectation,significant_cluster_05,n_observations,n_clusters,n_periods,r_squared,adjusted_r_squared,p_value_holm,wcr11_p_value_holm,wcr31_p_value_holm,significant_cluster_holm_05,significant_wcr11_holm_05,significant_wcr31_holm_05
+absolute,P1_people,Volkzentrierung,mean_P1_people,positive,0.012,0.002,5.276,0.006,0.006,0.018,0.000,0.000,True,True,739,5,3,0.535,0.530,0.007,0.000,0.000,True,True,True
+absolute,P2_anti_elite,Anti-Elitismus,mean_P2_anti_elite,positive,0.017,0.001,11.657,0.000,0.013,0.021,0.000,0.000,True,True,739,5,3,0.507,0.502,0.001,0.000,0.000,True,True,True
+absolute,P3_outgroup,Ausschluss von Outgroups,mean_P3_outgroup,positive,0.010,0.002,6.121,0.004,0.006,0.015,0.000,0.062,True,True,739,5,3,0.119,0.111,0.007,0.000,0.062,True,True,False

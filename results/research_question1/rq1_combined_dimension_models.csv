@@ -1,0 +1,11 @@
+operationalization,dimension,dimension_label,outcome,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,wcr11_p_value,wcr31_p_value,direction_matches_expectation,significant_cluster_05,n_observations,n_clusters,n_periods,r_squared,adjusted_r_squared,p_value_holm,wcr11_p_value_holm,wcr31_p_value_holm,significant_cluster_holm_05,significant_wcr11_holm_05,significant_wcr31_holm_05
+distance,G1_environment,Umwelt,G1_environment_distance_to_afd,negative,-0.052,0.028,-1.869,0.135,-0.129,0.025,0.062,0.062,True,False,573,5,3,0.609,0.605,0.561,0.312,0.312,False,False,False
+distance,G2_migration,Migration,G2_migration_distance_to_afd,negative,-0.082,0.040,-2.030,0.112,-0.194,0.030,0.062,0.125,True,False,573,5,3,0.477,0.471,0.561,0.312,0.500,False,False,False
+distance,G3_society,Gesellschaftspolitik,G3_society_distance_to_afd,negative,-0.029,0.022,-1.309,0.261,-0.092,0.033,0.312,0.375,True,False,573,5,3,0.258,0.249,0.782,0.938,0.938,False,False,False
+distance,G4_civil_rights,Bürgerrechte,G4_civil_rights_distance_to_afd,negative,0.022,0.020,1.104,0.332,-0.033,0.077,0.312,0.312,False,False,573,5,3,0.403,0.396,0.782,0.938,0.938,False,False,False
+distance,G5_cosmopolitanism,Kosmopolitismus,G5_cosmopolitanism_distance_to_afd,negative,-0.018,0.029,-0.610,0.575,-0.099,0.063,0.688,0.750,True,False,573,5,3,0.422,0.415,0.782,0.938,0.938,False,False,False
+absolute,G1_environment,Umwelt,mean_G1_environment,positive,0.070,0.031,2.299,0.083,-0.015,0.155,0.000,0.000,True,False,592,5,3,0.689,0.685,0.297,0.000,0.000,False,True,True
+absolute,G2_migration,Migration,mean_G2_migration,positive,0.108,0.045,2.401,0.074,-0.017,0.233,0.000,0.062,True,False,592,5,3,0.458,0.452,0.297,0.000,0.188,False,True,False
+absolute,G3_society,Gesellschaftspolitik,mean_G3_society,positive,0.061,0.023,2.637,0.058,-0.003,0.124,0.000,0.062,True,False,592,5,3,0.350,0.342,0.289,0.000,0.188,False,True,False
+absolute,G4_civil_rights,Bürgerrechte,mean_G4_civil_rights,positive,0.036,0.017,2.080,0.106,-0.012,0.083,0.062,0.125,True,False,592,5,3,0.593,0.588,0.297,0.062,0.188,False,False,False
+absolute,G5_cosmopolitanism,Kosmopolitismus,mean_G5_cosmopolitanism,positive,0.066,0.030,2.179,0.095,-0.018,0.149,0.000,0.000,True,False,592,5,3,0.544,0.538,0.297,0.000,0.000,False,True,True

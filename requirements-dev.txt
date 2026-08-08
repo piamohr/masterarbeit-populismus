@@ -1,0 +1,11 @@
+# Development dependencies
+# Install after requirements.txt with: pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+ipykernel>=6.29
+jupyterlab>=4.0
+notebook>=7.0
+
+black>=24.0
+ruff>=0.6

@@ -1,0 +1,5 @@
+operationalization,model_label,status,is_opposition,effect_afd_support,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,significant_05
+distance,Rhetorische Distanz zur AfD,Regierung,0,0.010,0.001,8.816,0.001,0.007,0.013,True
+distance,Rhetorische Distanz zur AfD,Opposition,1,0.002,0.002,1.045,0.355,-0.004,0.008,False
+absolute,Absoluter Populismus,Regierung,0,0.010,0.002,5.042,0.007,0.004,0.015,True
+absolute,Absoluter Populismus,Opposition,1,0.017,0.003,6.163,0.004,0.009,0.025,True

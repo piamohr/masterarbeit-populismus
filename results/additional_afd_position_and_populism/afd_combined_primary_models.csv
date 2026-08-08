@@ -1,0 +1,3 @@
+analysis,model_key,model_label,outcome,predictor,model,hac_lag,coefficient,hac_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_periods,r_squared,adjusted_r_squared,afd_support_mean,supported
+hac_primary,gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,afd_support_t,wahlperiode_fixed_effects,4,0.048,0.019,2.507,0.013,0.010,0.086,148,3,0.185,0.168,14.649,True
+hac_primary,populism,Absoluter Populismus der AfD,afd_mean_populism_score,afd_support_t,wahlperiode_fixed_effects,4,0.019,0.008,2.459,0.015,0.004,0.035,148,3,0.185,0.168,14.649,True

@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,r_squared,adjusted_r_squared,interpretation
+H2,distance,Rhetorische Annäherung,party_and_period_fixed_effects,populism_distance_to_afd,afd_support_t,negative,0.006,0.002,3.873,0.018,0.002,0.011,739,5,0.341,0.334,"Rhetorische Annäherung: Der Koeffizient ist statistisch signifikant, weist aber in die der Hypothese entgegengesetzte Richtung."

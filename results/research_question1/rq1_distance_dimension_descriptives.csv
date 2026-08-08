@@ -1,0 +1,6 @@
+operationalization,dimension,dimension_label,outcome,n,mean,standard_deviation,minimum,median,maximum
+distance,G1_environment,Umwelt,G1_environment_distance_to_afd,573,5.965,1.628,0.000,6.402,9.000
+distance,G2_migration,Migration,G2_migration_distance_to_afd,573,5.356,1.813,0.143,5.659,10.000
+distance,G3_society,Gesellschaftspolitik,G3_society_distance_to_afd,573,6.718,1.503,0.000,7.067,10.000
+distance,G4_civil_rights,Bürgerrechte,G4_civil_rights_distance_to_afd,573,4.590,1.345,0.000,4.720,7.833
+distance,G5_cosmopolitanism,Kosmopolitismus,G5_cosmopolitanism_distance_to_afd,573,5.861,0.977,0.833,5.993,8.667

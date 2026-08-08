@@ -1,0 +1,17 @@
+model_key,model_label,outcome,hac_lag,coefficient,hac_se,t_value,p_value,ci_95_low,ci_95_high,n_observations
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,0,0.048,0.017,2.773,0.006,0.014,0.083,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,1,0.048,0.019,2.565,0.011,0.011,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,2,0.048,0.019,2.514,0.013,0.010,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,3,0.048,0.019,2.548,0.012,0.011,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,4,0.048,0.019,2.507,0.013,0.010,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,5,0.048,0.020,2.464,0.015,0.010,0.087,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,6,0.048,0.020,2.438,0.016,0.009,0.087,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,8,0.048,0.020,2.443,0.016,0.009,0.087,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,0,0.019,0.006,3.196,0.002,0.007,0.031,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,1,0.019,0.007,2.978,0.003,0.007,0.032,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,2,0.019,0.007,2.723,0.007,0.005,0.034,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,3,0.019,0.008,2.578,0.011,0.005,0.034,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,4,0.019,0.008,2.459,0.015,0.004,0.035,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,5,0.019,0.008,2.380,0.019,0.003,0.036,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,6,0.019,0.008,2.320,0.022,0.003,0.036,148
+populism,Absoluter Populismus der AfD,afd_mean_populism_score,8,0.019,0.009,2.270,0.025,0.003,0.036,148

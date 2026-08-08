@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,moderator,interaction,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,n_periods,r_squared,adjusted_r_squared,afd_support_mean,supported,interpretation
+H1c,distance,Positionelle Distanz zur AfD,party_and_period_fixed_effects,gal_tan_distance_to_afd,afd_support_t,is_opposition,afd_x_opposition,negative,0.001,0.028,0.053,0.960,-0.076,0.079,725,5,3,0.500,0.494,14.541,False,Positionelle Distanz zur AfD: H1c wird durch dieses Modell nicht unterstützt.

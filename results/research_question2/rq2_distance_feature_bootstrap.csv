@@ -1,0 +1,7 @@
+operationalization,feature,feature_label,bootstrap_type,p_value
+distance,P1_people,Volkzentrierung,WCR11,0.062
+distance,P1_people,Volkzentrierung,WCR31,0.062
+distance,P2_anti_elite,Anti-Elitismus,WCR11,0.000
+distance,P2_anti_elite,Anti-Elitismus,WCR31,0.000
+distance,P3_outgroup,Ausschluss von Outgroups,WCR11,0.062
+distance,P3_outgroup,Ausschluss von Outgroups,WCR31,0.000

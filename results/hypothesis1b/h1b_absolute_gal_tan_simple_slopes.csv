@@ -1,0 +1,4 @@
+loss_level,electoral_loss,effect_afd_support,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,significant_05
+Niedriger Verlust / eher Gewinn,-1.156,0.074,0.026,2.858,0.046,0.002,0.146,True
+Mittlerer Verlust,0.015,0.066,0.026,2.505,0.066,-0.007,0.140,False
+Hoher Verlust,1.187,0.058,0.027,2.135,0.100,-0.017,0.134,False

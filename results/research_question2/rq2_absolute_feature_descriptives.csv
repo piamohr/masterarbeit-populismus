@@ -1,0 +1,4 @@
+operationalization,feature,feature_label,outcome,n,mean,standard_deviation,minimum,median,maximum
+absolute,P1_people,Volkzentrierung,mean_P1_people,739,0.244,0.216,0.000,0.182,2.000
+absolute,P2_anti_elite,Anti-Elitismus,mean_P2_anti_elite,739,0.530,0.322,0.000,0.473,2.000
+absolute,P3_outgroup,Ausschluss von Outgroups,mean_P3_outgroup,739,0.088,0.119,0.000,0.062,1.500

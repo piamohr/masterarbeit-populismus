@@ -1,0 +1,2 @@
+hypothesis,level,operationalization,model_label,model,outcome,predictor,expected_direction,hac_lag,coefficient,standard_error,test_statistic,p_value,ci_95_low,ci_95_high,n_observations,n_periods,r_squared,adjusted_r_squared,supported,interpretation
+H1,mainstream_polling_interval,absolute_gal_tan,Absolute GAL-TAN-Position,wahlperiode_fixed_effects,mean_gal_tan_score,afd_support_t,positive,4,0.073,0.020,3.665,0.000,0.034,0.112,150,3,0.332,0.319,True,Absolute GAL-TAN-Position: Der Koeffizient weist in die erwartete Richtung und ist statistisch signifikant.

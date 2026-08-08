@@ -1,0 +1,11 @@
+operationalization,model_label,afd_proximity_ordinal,effect_afd_support,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,significant_05
+distance,Positionelle Distanz zur AfD,0.000,0.047,0.024,1.937,0.125,-0.020,0.114,False
+distance,Positionelle Distanz zur AfD,1.000,0.016,0.019,0.864,0.436,-0.036,0.068,False
+distance,Positionelle Distanz zur AfD,2.000,-0.015,0.014,-1.033,0.360,-0.054,0.025,False
+distance,Positionelle Distanz zur AfD,3.000,-0.045,0.013,-3.622,0.022,-0.080,-0.011,True
+distance,Positionelle Distanz zur AfD,4.000,-0.076,0.014,-5.270,0.006,-0.116,-0.036,True
+absolute,Absolute GAL-TAN-Position,0.000,0.001,0.025,0.036,0.973,-0.067,0.069,False
+absolute,Absolute GAL-TAN-Position,1.000,0.033,0.019,1.733,0.158,-0.020,0.085,False
+absolute,Absolute GAL-TAN-Position,2.000,0.064,0.014,4.557,0.010,0.025,0.103,True
+absolute,Absolute GAL-TAN-Position,3.000,0.096,0.012,8.059,0.001,0.063,0.129,True
+absolute,Absolute GAL-TAN-Position,4.000,0.128,0.013,9.467,0.001,0.090,0.165,True

@@ -1,0 +1,7 @@
+operationalization,model_label,loss_level,electoral_loss,effect_afd_support,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,significant_05
+distance,Rhetorische Distanz zur AfD,Niedriger Verlust / eher Gewinn,-1.161,0.005,0.001,3.427,0.027,0.001,0.009,True
+distance,Rhetorische Distanz zur AfD,Mittlerer Verlust,0.014,0.006,0.002,3.546,0.024,0.001,0.011,True
+distance,Rhetorische Distanz zur AfD,Hoher Verlust,1.188,0.007,0.004,1.605,0.184,-0.005,0.019,False
+absolute,Absoluter Populismus,Niedriger Verlust / eher Gewinn,-1.161,0.017,0.002,7.914,0.001,0.011,0.023,True
+absolute,Absoluter Populismus,Mittlerer Verlust,0.014,0.013,0.002,7.830,0.001,0.009,0.018,True
+absolute,Absoluter Populismus,Hoher Verlust,1.188,0.010,0.003,3.565,0.023,0.002,0.017,True

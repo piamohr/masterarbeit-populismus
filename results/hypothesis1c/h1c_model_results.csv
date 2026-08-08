@@ -1,0 +1,2 @@
+hypothesis,outcome,interaction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,supported
+H1c,gal_tan_distance_to_afd,afd_x_opposition,0.0014916658953088302,0.02798332210294811,0.05330553283920781,0.9600444993870308,-0.07620249178459468,0.07918582357521234,725,5,False

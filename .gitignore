@@ -1,0 +1,67 @@
+# ==========================================
+# Secrets
+# ==========================================
+.env
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+.venv/
+venv/
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# macOS / System
+# ==========================================
+.DS_Store
+__MACOSX/
+
+# ==========================================
+# Logs / Temporary files
+# ==========================================
+*.log
+*.tmp
+*.bak
+
+# ==========================================
+# Large raw data files
+# ==========================================
+data/raw/CPP-BT_2026-01-17_DE_PQT_Reden_Gesamt.parquet
+data/raw/*.parquet
+data/raw/*.pqt
+
+# ==========================================
+# Intermediate processed data
+# ==========================================
+data/interim/
+data/processed/*
+
+# Keep final analysis datasets
+!data/processed/final_analysis/
+!data/processed/final_analysis/**
+
+# But exclude very large generated final-analysis files
+data/processed/final_analysis/02_speech_level_with_polling.csv
+
+# ==========================================
+# Outputs not intended for version control
+# ==========================================
+outputs/
+
+# ==========================================
+# Keep results
+# ==========================================
+!results/
+!results/**

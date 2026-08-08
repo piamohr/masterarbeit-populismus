@@ -1,0 +1,206 @@
+========================================================================================
+FF3 – Distanzmodell: Einfluss der vorherigen rhetorischen Distanz auf die nachfolgende positionelle Distanz
+========================================================================================
+Formel: gal_tan_distance_to_afd ~ rhetoric_distance_lag1 + position_distance_lag1 + afd_support_lag1 + C(wahlperiode)
+N Beobachtungen: 129
+Anzahl Wahlperioden: 3
+HAC-/Newey-West-Standardfehler: maxlags = 1
+R²: 0.094
+Adjustiertes R²: 0.057
+
+Zentraler zeitverzögerter Effekt:
+b = 1.425, SE = 0.473, t = 3.013, p = 0.003, 95%-KI [0.498, 2.352]
+
+Hinweis zur Interpretation der Distanzmodelle:
+- Ein positiver Koeffizient bedeutet, dass größere Distanzen in t-1 mit größeren Distanzen in t zusammenhängen. Umgekehrt geht damit stärkere Annäherung in t-1 mit stärkerer Annäherung in t einher.
+- Ein negativer Koeffizient bedeutet, dass größere Distanzen in t-1 mit kleineren Distanzen in t zusammenhängen. Die beiden Annäherungsformen entwickeln sich dann gegenläufig.
+
+Vollständige Modellzusammenfassung:
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     gal_tan_distance_to_afd   R-squared:                       0.094
+Model:                                 OLS   Adj. R-squared:                  0.057
+Method:                      Least Squares   F-statistic:                     3.152
+Date:                     Fri, 31 Jul 2026   Prob (F-statistic):             0.0103
+Time:                             12:41:52   Log-Likelihood:                -123.38
+No. Observations:                      129   AIC:                             258.8
+Df Residuals:                          123   BIC:                             275.9
+Df Model:                                5                                         
+Covariance Type:                       HAC                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  5.1415      0.490     10.487      0.000       4.181       6.102
+C(wahlperiode)[T.20]       0.2383      0.109      2.190      0.029       0.025       0.452
+C(wahlperiode)[T.21]       0.6464      0.387      1.669      0.095      -0.113       1.406
+rhetoric_distance_lag1     1.4247      0.473      3.013      0.003       0.498       2.352
+position_distance_lag1    -0.1291      0.106     -1.213      0.225      -0.338       0.079
+afd_support_lag1          -0.0336      0.017     -1.974      0.048      -0.067      -0.000
+==============================================================================
+Omnibus:                        5.740   Durbin-Watson:                   2.168
+Prob(Omnibus):                  0.057   Jarque-Bera (JB):                7.606
+Skew:                           0.195   Prob(JB):                       0.0223
+Kurtosis:                       4.124   Cond. No.                         168.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+
+========================================================================================
+FF4 – Distanzmodell: Einfluss der vorherigen positionellen Distanz auf die nachfolgende rhetorische Distanz
+========================================================================================
+Formel: populism_distance_to_afd ~ position_distance_lag1 + rhetoric_distance_lag1 + afd_support_lag1 + C(wahlperiode)
+N Beobachtungen: 131
+Anzahl Wahlperioden: 3
+HAC-/Newey-West-Standardfehler: maxlags = 1
+R²: 0.110
+Adjustiertes R²: 0.074
+
+Zentraler zeitverzögerter Effekt:
+b = 0.011, SE = 0.037, t = 0.293, p = 0.769, 95%-KI [-0.062, 0.084]
+
+Hinweis zur Interpretation der Distanzmodelle:
+- Ein positiver Koeffizient bedeutet, dass größere Distanzen in t-1 mit größeren Distanzen in t zusammenhängen. Umgekehrt geht damit stärkere Annäherung in t-1 mit stärkerer Annäherung in t einher.
+- Ein negativer Koeffizient bedeutet, dass größere Distanzen in t-1 mit kleineren Distanzen in t zusammenhängen. Die beiden Annäherungsformen entwickeln sich dann gegenläufig.
+
+Vollständige Modellzusammenfassung:
+                               OLS Regression Results                               
+====================================================================================
+Dep. Variable:     populism_distance_to_afd   R-squared:                       0.110
+Model:                                  OLS   Adj. R-squared:                  0.074
+Method:                       Least Squares   F-statistic:                     3.862
+Date:                      Fri, 31 Jul 2026   Prob (F-statistic):            0.00274
+Time:                              12:41:52   Log-Likelihood:                 62.000
+No. Observations:                       131   AIC:                            -112.0
+Df Residuals:                           125   BIC:                            -94.75
+Df Model:                                 5                                         
+Covariance Type:                        HAC                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  0.3955      0.185      2.139      0.032       0.033       0.758
+C(wahlperiode)[T.20]       0.0433      0.037      1.170      0.242      -0.029       0.116
+C(wahlperiode)[T.21]      -0.0717      0.090     -0.801      0.423      -0.247       0.104
+position_distance_lag1     0.0109      0.037      0.293      0.769      -0.062       0.084
+rhetoric_distance_lag1     0.2412      0.138      1.742      0.082      -0.030       0.513
+afd_support_lag1           0.0045      0.006      0.785      0.432      -0.007       0.016
+==============================================================================
+Omnibus:                       32.184   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               68.638
+Skew:                           1.019   Prob(JB):                     1.25e-15
+Kurtosis:                       5.902   Cond. No.                         160.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+
+========================================================================================
+FF3 – Absolutmodell: Einfluss des vorherigen absoluten Populismuswerts auf den nachfolgenden absoluten GAL–TAN-Wert
+========================================================================================
+Formel: mean_gal_tan_score ~ rhetoric_absolute_lag1 + position_absolute_lag1 + afd_support_lag1 + C(wahlperiode)
+N Beobachtungen: 132
+Anzahl Wahlperioden: 3
+HAC-/Newey-West-Standardfehler: maxlags = 1
+R²: 0.339
+Adjustiertes R²: 0.313
+
+Zentraler zeitverzögerter Effekt:
+b = 2.057, SE = 0.889, t = 2.313, p = 0.021, 95%-KI [0.314, 3.799]
+
+Hinweis zur Interpretation der absoluten Werte:
+- Ein positiver Koeffizient bedeutet, dass ein höherer Wert der erklärenden Dimension in t-1 mit einem höheren Wert der abhängigen Dimension in t zusammenhängt.
+- Ein negativer Koeffizient bedeutet, dass ein höherer Wert der erklärenden Dimension in t-1 mit einem niedrigeren Wert der abhängigen Dimension in t zusammenhängt.
+- Die inhaltliche Richtung des GAL–TAN-Scores richtet sich nach der Kodierung des Ausgangsdatensatzes. Vor der substanziellen Interpretation ist daher zu prüfen, ob höhere Werte den TAN- oder den GAL-Pol kennzeichnen.
+
+Vollständige Modellzusammenfassung:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     mean_gal_tan_score   R-squared:                       0.339
+Model:                            OLS   Adj. R-squared:                  0.313
+Method:                 Least Squares   F-statistic:                     9.455
+Date:                Fri, 31 Jul 2026   Prob (F-statistic):           1.13e-07
+Time:                        12:41:52   Log-Likelihood:                -70.312
+No. Observations:                 132   AIC:                             152.6
+Df Residuals:                     126   BIC:                             169.9
+Df Model:                           5                                         
+Covariance Type:                  HAC                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  0.8855      0.179      4.958      0.000       0.535       1.236
+C(wahlperiode)[T.20]       0.0916      0.074      1.244      0.214      -0.053       0.236
+C(wahlperiode)[T.21]      -0.6263      0.256     -2.449      0.014      -1.128      -0.125
+rhetoric_absolute_lag1     2.0566      0.889      2.313      0.021       0.314       3.799
+position_absolute_lag1    -0.0666      0.136     -0.489      0.625      -0.334       0.201
+afd_support_lag1           0.0511      0.013      3.968      0.000       0.026       0.076
+==============================================================================
+Omnibus:                       51.112   Durbin-Watson:                   2.286
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              222.803
+Skew:                           1.291   Prob(JB):                     4.16e-49
+Kurtosis:                       8.817   Cond. No.                         302.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+
+========================================================================================
+FF4 – Absolutmodell: Einfluss des vorherigen absoluten GAL–TAN-Werts auf den nachfolgenden absoluten Populismuswert
+========================================================================================
+Formel: mean_populism_score ~ position_absolute_lag1 + rhetoric_absolute_lag1 + afd_support_lag1 + C(wahlperiode)
+N Beobachtungen: 132
+Anzahl Wahlperioden: 3
+HAC-/Newey-West-Standardfehler: maxlags = 1
+R²: 0.508
+Adjustiertes R²: 0.489
+
+Zentraler zeitverzögerter Effekt:
+b = -0.006, SE = 0.021, t = -0.277, p = 0.782, 95%-KI [-0.046, 0.035]
+
+Hinweis zur Interpretation der absoluten Werte:
+- Ein positiver Koeffizient bedeutet, dass ein höherer Wert der erklärenden Dimension in t-1 mit einem höheren Wert der abhängigen Dimension in t zusammenhängt.
+- Ein negativer Koeffizient bedeutet, dass ein höherer Wert der erklärenden Dimension in t-1 mit einem niedrigeren Wert der abhängigen Dimension in t zusammenhängt.
+- Die inhaltliche Richtung des GAL–TAN-Scores richtet sich nach der Kodierung des Ausgangsdatensatzes. Vor der substanziellen Interpretation ist daher zu prüfen, ob höhere Werte den TAN- oder den GAL-Pol kennzeichnen.
+
+Vollständige Modellzusammenfassung:
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     mean_populism_score   R-squared:                       0.508
+Model:                             OLS   Adj. R-squared:                  0.489
+Method:                  Least Squares   F-statistic:                     35.81
+Date:                 Fri, 31 Jul 2026   Prob (F-statistic):           1.14e-22
+Time:                         12:41:52   Log-Likelihood:                 169.58
+No. Observations:                  132   AIC:                            -327.2
+Df Residuals:                      126   BIC:                            -309.9
+Df Model:                            5                                         
+Covariance Type:                   HAC                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  0.0368      0.031      1.169      0.242      -0.025       0.098
+C(wahlperiode)[T.20]       0.0233      0.009      2.503      0.012       0.005       0.042
+C(wahlperiode)[T.21]       0.0080      0.027      0.296      0.767      -0.045       0.061
+position_absolute_lag1    -0.0057      0.021     -0.277      0.782      -0.046       0.035
+rhetoric_absolute_lag1     0.6589      0.161      4.084      0.000       0.343       0.975
+afd_support_lag1           0.0036      0.002      1.823      0.068      -0.000       0.007
+==============================================================================
+Omnibus:                       95.781   Durbin-Watson:                   2.288
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              894.417
+Skew:                           2.412   Prob(JB):                    6.02e-195
+Kurtosis:                      14.805   Cond. No.                         302.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+
+========================================================================================
+HOLM-KORRIGIERTE ZENTRALE TESTS
+========================================================================================
+research_question        operationalization                                                            effect             focal_term   N      b    SE      t  p_raw  CI_low  CI_high    R2  R2_adj  p_Holm_family  significant_Holm_family_005  p_Holm_all  significant_Holm_all_005
+              FF3           Distanz zur AfD rhetorische Distanz zur AfD t-1 -> positionelle Distanz zur AfD t rhetoric_distance_lag1 129  1.425 0.473  3.013  0.003   0.498    2.352 0.094   0.057          0.005                         True       0.010                      True
+              FF4           Distanz zur AfD positionelle Distanz zur AfD t-1 -> rhetorische Distanz zur AfD t position_distance_lag1 131  0.011 0.037  0.293  0.769  -0.062    0.084 0.110   0.074          0.769                        False       1.000                     False
+              FF3 Absolute Mainstream-Werte          absoluter Populismuswert t-1 -> absoluter GAL–TAN-Wert t rhetoric_absolute_lag1 132  2.057 0.889  2.313  0.021   0.314    3.799 0.339   0.313          0.041                         True       0.062                     False
+              FF4 Absolute Mainstream-Werte          absoluter GAL–TAN-Wert t-1 -> absoluter Populismuswert t position_absolute_lag1 132 -0.006 0.021 -0.277  0.782  -0.046    0.035 0.508   0.489          0.782                        False       1.000                     False
+
+Erläuterung der Korrekturvariablen:
+- p_Holm_family korrigiert FF3 und FF4 getrennt innerhalb der Distanz- beziehungsweise Absolutmodelle.
+- p_Holm_all korrigiert konservativ über alle vier zentralen Tests gemeinsam.

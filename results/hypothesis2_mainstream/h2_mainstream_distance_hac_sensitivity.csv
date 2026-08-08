@@ -1,0 +1,7 @@
+hypothesis,operationalization,model_label,outcome,expected_direction,hac_lag,coefficient,standard_error,test_statistic,p_value,ci_95_low,ci_95_high,direction_matches_expectation,significant_05,supported
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,1,0.007,0.005,1.577,0.117,-0.002,0.016,False,False,False
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,2,0.007,0.005,1.535,0.127,-0.002,0.017,False,False,False
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,3,0.007,0.005,1.490,0.138,-0.002,0.017,False,False,False
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,4,0.007,0.005,1.435,0.154,-0.003,0.017,False,False,False
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,6,0.007,0.005,1.382,0.169,-0.003,0.018,False,False,False
+H2,distance_to_afd,Rhetorische Distanz zur AfD,populism_distance_to_afd,negative,12,0.007,0.005,1.525,0.129,-0.002,0.017,False,False,False

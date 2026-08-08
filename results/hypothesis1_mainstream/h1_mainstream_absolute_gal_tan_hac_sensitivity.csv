@@ -1,0 +1,7 @@
+hypothesis,operationalization,model_label,outcome,expected_direction,hac_lag,coefficient,standard_error,test_statistic,p_value,ci_95_low,ci_95_high,direction_matches_expectation,significant_05,supported
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,1,0.073,0.015,4.863,0.000,0.043,0.103,True,True,True
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,2,0.073,0.017,4.235,0.000,0.039,0.107,True,True,True
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,3,0.073,0.019,3.888,0.000,0.036,0.110,True,True,True
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,4,0.073,0.020,3.665,0.000,0.034,0.112,True,True,True
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,6,0.073,0.021,3.398,0.001,0.031,0.116,True,True,True
+H1,absolute_gal_tan,Absolute GAL-TAN-Position,mean_gal_tan_score,positive,12,0.073,0.023,3.138,0.002,0.027,0.119,True,True,True

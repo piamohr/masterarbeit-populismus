@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,r_squared,adjusted_r_squared,interpretation
+H1,distance,Positionelle Annäherung,party_and_period_fixed_effects,gal_tan_distance_to_afd,afd_support_t,negative,-0.015,0.026,-0.590,0.587,-0.088,0.057,725,5,0.465,0.459,"Positionelle Annäherung: Der Koeffizient weist in die erwartete Richtung, ist aber nicht statistisch signifikant."

@@ -1,0 +1,21 @@
+Operationalisierung,Vergleich,b_Differenz,SE_cluster,KI_95_unten,KI_95_oben,p_cluster,p_cluster_Holm,p_WCR11,p_WCR11_Holm,p_WCR31,p_WCR31_Holm,Signifikanz_cluster,Signifikanz_WCR11,Signifikanz_WCR31,N,Cluster,Wahlperioden
+Distanz zur AfD,Bürgerrechte – Kosmopolitismus,0.040,0.015,-0.003,0.082,0.061,0.276,0.000,0.000,0.000,0.000,,*,†,573,5,3
+Distanz zur AfD,Gesellschaftspolitik – Bürgerrechte,-0.051,0.013,-0.086,-0.016,0.016,0.126,0.062,0.250,0.062,0.500,,,,573,5,3
+Distanz zur AfD,Gesellschaftspolitik – Kosmopolitismus,-0.012,0.017,-0.058,0.035,0.527,0.527,0.375,0.562,0.438,0.500,,,,573,5,3
+Distanz zur AfD,Migration – Bürgerrechte,-0.104,0.025,-0.172,-0.036,0.013,0.120,0.000,0.000,0.062,0.500,,*,,573,5,3
+Distanz zur AfD,Migration – Gesellschaftspolitik,-0.053,0.018,-0.104,-0.001,0.046,0.276,0.000,0.000,0.062,0.500,,*,,573,5,3
+Distanz zur AfD,Migration – Kosmopolitismus,-0.064,0.023,-0.127,-0.002,0.046,0.276,0.000,0.000,0.062,0.500,,*,,573,5,3
+Distanz zur AfD,Umwelt – Bürgerrechte,-0.074,0.011,-0.103,-0.045,0.002,0.022,0.000,0.000,0.000,0.000,*,*,†,573,5,3
+Distanz zur AfD,Umwelt – Gesellschaftspolitik,-0.023,0.013,-0.059,0.014,0.159,0.478,0.188,0.562,0.125,0.500,,,,573,5,3
+Distanz zur AfD,Umwelt – Kosmopolitismus,-0.034,0.009,-0.058,-0.010,0.017,0.126,0.000,0.000,0.062,0.500,,*,,573,5,3
+Distanz zur AfD,Umwelt – Migration,0.030,0.019,-0.022,0.082,0.181,0.478,0.188,0.562,0.188,0.500,,,,573,5,3
+Absolute GAL-TAN-Position,Bürgerrechte – Kosmopolitismus,-0.030,0.019,-0.082,0.022,0.185,1.000,0.250,1.000,0.188,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Gesellschaftspolitik – Bürgerrechte,0.025,0.010,-0.004,0.054,0.074,0.735,0.125,1.000,0.125,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Gesellschaftspolitik – Kosmopolitismus,-0.005,0.019,-0.058,0.049,0.811,1.000,0.812,1.000,0.812,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Migration – Bürgerrechte,0.073,0.032,-0.017,0.163,0.088,0.791,0.125,1.000,0.188,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Migration – Gesellschaftspolitik,0.048,0.024,-0.020,0.115,0.120,0.843,0.188,1.000,0.188,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Migration – Kosmopolitismus,0.043,0.026,-0.030,0.116,0.179,1.000,0.125,1.000,0.188,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Umwelt – Bürgerrechte,0.035,0.015,-0.008,0.077,0.088,0.791,0.000,0.000,0.000,0.000,,*,†,592,5,3
+Absolute GAL-TAN-Position,Umwelt – Gesellschaftspolitik,0.010,0.017,-0.039,0.058,0.615,1.000,0.625,1.000,0.625,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Umwelt – Kosmopolitismus,0.005,0.010,-0.022,0.031,0.655,1.000,0.625,1.000,0.688,1.000,,,,592,5,3
+Absolute GAL-TAN-Position,Umwelt – Migration,-0.038,0.027,-0.113,0.037,0.232,1.000,0.250,1.000,0.312,1.000,,,,592,5,3

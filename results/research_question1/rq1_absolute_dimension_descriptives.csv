@@ -1,0 +1,6 @@
+operationalization,dimension,dimension_label,outcome,n,mean,standard_deviation,minimum,median,maximum
+absolute,G1_environment,Umwelt,mean_G1_environment,592,2.216,1.606,0.000,1.538,9.000
+absolute,G2_migration,Migration,mean_G2_migration,592,3.032,1.868,0.000,2.528,10.000
+absolute,G3_society,Gesellschaftspolitik,mean_G3_society,592,1.174,1.361,0.000,0.745,8.000
+absolute,G4_civil_rights,Bürgerrechte,mean_G4_civil_rights,592,1.870,1.175,0.000,1.545,8.333
+absolute,G5_cosmopolitanism,Kosmopolitismus,mean_G5_cosmopolitanism,592,1.614,0.951,0.000,1.346,7.667

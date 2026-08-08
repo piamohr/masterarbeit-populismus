@@ -1,0 +1,17 @@
+ZENTRALE KENNZAHLEN
+===================
+Finale Zahl analysierter Reden: 43868
+Untersuchungszeitraum: 24.10.2017 bis 15.01.2026
+Anzahl Parteien: 6
+Anzahl Wahlperioden: 3
+Anzahl Redner:innen: 1271
+Mittlere Redelänge: 609,539 Wörter
+Median der Redelänge: 581,000 Wörter
+Anzahl eindeutiger Umfrageintervalle: 181
+Anzahl Partei–Umfrageintervalle: 905
+Mittlere Intervalllänge: 16,785 Tage
+Mittlere Zahl Reden pro Partei–Intervall: 41,527
+Anteil Partei–Intervalle ohne Reden: 18,343 %
+Mittlere AfD-Unterstützung: 14,624
+Minimum AfD-Unterstützung: 9
+Maximum AfD-Unterstützung: 26

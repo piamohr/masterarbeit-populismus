@@ -1,0 +1,7 @@
+hypothesis,operationalization,model_label,outcome,expected_direction,hac_lag,coefficient,standard_error,test_statistic,p_value,ci_95_low,ci_95_high,direction_matches_expectation,significant_05,supported
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,1,0.012,0.004,3.397,0.001,0.005,0.019,True,True,True
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,2,0.012,0.004,2.964,0.004,0.004,0.020,True,True,True
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,3,0.012,0.004,2.750,0.007,0.003,0.021,True,True,True
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,4,0.012,0.005,2.624,0.010,0.003,0.022,True,True,True
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,6,0.012,0.005,2.471,0.015,0.002,0.022,True,True,True
+H2,absolute_populism,Absoluter Populismus,mean_populism_score,positive,12,0.012,0.005,2.289,0.024,0.002,0.023,True,True,True

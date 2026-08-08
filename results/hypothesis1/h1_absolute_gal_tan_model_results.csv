@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,r_squared,adjusted_r_squared,interpretation
+H1,absolute,Absolute GAL-TAN-Position,party_and_period_fixed_effects,mean_gal_tan_score,afd_support_t,positive,0.065,0.026,2.489,0.068,-0.008,0.137,732,5,0.621,0.617,"Absolute GAL-TAN-Position: Der Koeffizient weist in die erwartete Richtung, ist aber nicht statistisch signifikant."

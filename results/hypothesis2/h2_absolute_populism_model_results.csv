@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,r_squared,adjusted_r_squared,interpretation
+H2,absolute,Absoluter Populismus,party_and_period_fixed_effects,mean_populism_score,afd_support_t,positive,0.013,0.002,7.923,0.001,0.009,0.018,739,5,0.536,0.531,Absoluter Populismus: Der Koeffizient weist in die erwartete Richtung und ist statistisch signifikant.

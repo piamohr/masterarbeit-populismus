@@ -1,0 +1,2 @@
+hypothesis,operationalization,model_label,model,outcome,predictor,moderator,interaction,expected_direction,coefficient,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,n_observations,n_clusters,n_periods,r_squared,adjusted_r_squared,afd_support_mean,supported,interpretation
+H1c,absolute,Absolute GAL-TAN-Position,party_and_period_fixed_effects,mean_gal_tan_score,afd_support_t,is_opposition,afd_x_opposition,positive,-0.008,0.027,-0.286,0.789,-0.082,0.067,732,5,3,0.664,0.660,14.556,False,Absolute GAL-TAN-Position: H1c wird durch dieses Modell nicht unterstützt.

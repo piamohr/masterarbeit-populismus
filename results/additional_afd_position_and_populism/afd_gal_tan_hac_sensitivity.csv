@@ -1,0 +1,9 @@
+model_key,model_label,outcome,hac_lag,coefficient,hac_se,t_value,p_value,ci_95_low,ci_95_high,n_observations
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,0,0.048,0.017,2.773,0.006,0.014,0.083,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,1,0.048,0.019,2.565,0.011,0.011,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,2,0.048,0.019,2.514,0.013,0.010,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,3,0.048,0.019,2.548,0.012,0.011,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,4,0.048,0.019,2.507,0.013,0.010,0.086,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,5,0.048,0.020,2.464,0.015,0.010,0.087,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,6,0.048,0.020,2.438,0.016,0.009,0.087,148
+gal_tan,Absolute GAL-TAN-Position der AfD,afd_mean_gal_tan_score,8,0.048,0.020,2.443,0.016,0.009,0.087,148

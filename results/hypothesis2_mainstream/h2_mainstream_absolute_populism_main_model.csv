@@ -1,0 +1,2 @@
+hypothesis,level,operationalization,model_label,model,outcome,predictor,expected_direction,hac_lag,coefficient,standard_error,test_statistic,p_value,ci_95_low,ci_95_high,n_observations,n_periods,r_squared,adjusted_r_squared,supported,interpretation
+H2,mainstream_polling_interval,absolute_populism,Absoluter Populismus,wahlperiode_fixed_effects,mean_populism_score,afd_support_t,positive,4,0.012,0.005,2.624,0.010,0.003,0.022,150,3,0.355,0.342,True,Absoluter Populismus: Der Koeffizient weist in die erwartete Richtung und ist statistisch signifikant.

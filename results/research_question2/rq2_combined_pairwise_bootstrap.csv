@@ -1,0 +1,13 @@
+operationalization,comparison,bootstrap_type,p_value
+distance,Volkzentrierung minus Anti-Elitismus,WCR11,0.000
+distance,Volkzentrierung minus Anti-Elitismus,WCR31,0.062
+distance,Volkzentrierung minus Ausschluss von Outgroups,WCR11,0.000
+distance,Volkzentrierung minus Ausschluss von Outgroups,WCR31,0.000
+distance,Anti-Elitismus minus Ausschluss von Outgroups,WCR11,0.000
+distance,Anti-Elitismus minus Ausschluss von Outgroups,WCR31,0.062
+absolute,Volkzentrierung minus Anti-Elitismus,WCR11,0.062
+absolute,Volkzentrierung minus Anti-Elitismus,WCR31,0.062
+absolute,Volkzentrierung minus Ausschluss von Outgroups,WCR11,0.250
+absolute,Volkzentrierung minus Ausschluss von Outgroups,WCR31,0.250
+absolute,Anti-Elitismus minus Ausschluss von Outgroups,WCR11,0.000
+absolute,Anti-Elitismus minus Ausschluss von Outgroups,WCR31,0.062

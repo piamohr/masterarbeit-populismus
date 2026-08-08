@@ -1,0 +1,11 @@
+operationalization,model_label,afd_proximity_ordinal,effect_afd_support,cluster_robust_se,t_value,p_value,ci_95_low,ci_95_high,significant_05
+distance,Rhetorische Distanz zur AfD,0.000,0.008,0.003,2.566,0.062,-0.001,0.017,False
+distance,Rhetorische Distanz zur AfD,1.000,0.007,0.002,4.430,0.011,0.003,0.012,True
+distance,Rhetorische Distanz zur AfD,2.000,0.006,0.001,4.788,0.009,0.003,0.010,True
+distance,Rhetorische Distanz zur AfD,3.000,0.005,0.003,2.067,0.108,-0.002,0.013,False
+distance,Rhetorische Distanz zur AfD,4.000,0.005,0.004,1.084,0.340,-0.007,0.017,False
+absolute,Absoluter Populismus,0.000,0.012,0.003,4.001,0.016,0.004,0.021,True
+absolute,Absoluter Populismus,1.000,0.013,0.001,8.518,0.001,0.009,0.017,True
+absolute,Absoluter Populismus,2.000,0.013,0.001,9.300,0.001,0.009,0.017,True
+absolute,Absoluter Populismus,3.000,0.014,0.003,4.643,0.010,0.005,0.022,True
+absolute,Absoluter Populismus,4.000,0.014,0.005,3.006,0.040,0.001,0.027,True
