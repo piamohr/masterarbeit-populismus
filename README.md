@@ -85,7 +85,7 @@ Für die LLM-Codierung wird ein OpenAI-API-Key benötigt. Dieser wird **nicht** 
 OPENAI_API_KEY=dein_api_key
 ```
 
-Die Datei `.env` ist in `.gitignore` ausgeschlossen.
+Die Datei `.env` ist in `.gitignore` ausgeschlossen. Eine `.env.example` ist im Repository hinterlegt.
 
 Wichtig: Die LLM-Codierungsskripte sollten nur erneut ausgeführt werden, wenn eine erneute Codierung wirklich beabsichtigt ist. Für Replikationen der nachgelagerten Analysen können die bereits erzeugten LLM-Scores bzw. finalen Analysedatensätze verwendet werden.
 
