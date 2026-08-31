@@ -765,14 +765,14 @@ def create_score_and_afd_poll_plot(
 
     poll_ax = score_ax.twinx()
     poll_ax.plot(
-        afd_poll_df["poll_date"],
-        afd_poll_df[afd_poll_column],
-        label="AfD-Umfragewert",
-        color="#444444",
-        linestyle="--",
-        linewidth=2.0,
-        zorder=4,
-    )
+    afd_poll_df["poll_date"],
+    afd_poll_df[afd_poll_column],
+    label="AfD-Umfragewert",
+    color=PARTY_COLORS["afd"],
+    linestyle="--",
+    linewidth=2.0,
+    zorder=4,
+)
     poll_ax.set_ylabel("AfD-Umfragewert in Prozentpunkten")
     poll_ax.spines["top"].set_visible(False)
     poll_ax.spines["right"].set_linewidth(0.8)
