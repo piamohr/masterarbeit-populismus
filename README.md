@@ -96,39 +96,37 @@ Wichtig: Die LLM-Codierungsskripte sollten nur erneut ausgeführt werden, wenn e
 ```text
 01_load_cppbt.py
 02_clean_cppbt.py
-05_add_government_status_cppbt.py
-06_test_sample.py
-07_print_speeches.py
+03_add_government_status_cppbt.py
+04_test_sample.py
+05_print_speeches.py
 ```
-
-`03_describe_cppbt.py` und `04_check_random_speeches.py` wurden aus der bereinigten Pipeline entfernt, weil sie für die finale Reproduktion nicht benötigt werden.
 
 ### 2. Validierung der LLM-Codierung
 
 ```text
-11_validation_sample.py
-12_validation_llm_coding.py
-13_face_validation.py
-14_concurrent_validation.py
+06_validation_sample.py
+07_validation_llm_coding.py
+08_face_validation.py
+09_reliability_validation.py
 ```
 
-`12_validation_llm_coding.py` enthält die LLM-basierte Codierung des Validierungssamples. Prompt, JSON-Schema, Modellparameter und Parsing-Logik sollten nicht verändert werden, wenn Vergleichbarkeit mit den bestehenden Ergebnissen erhalten bleiben soll.
+`07_validation_llm_coding.py` enthält die LLM-basierte Codierung des Validierungssamples. Prompt, JSON-Schema, Modellparameter und Parsing-Logik sollten nicht verändert werden, wenn Vergleichbarkeit mit den bestehenden Ergebnissen erhalten bleiben soll.
 
 ### 3. Finale LLM-Codierung und Score-Bildung
 
 ```text
-15_final_llm_coding.py
-16_scores.py
-17_merging.py
+10_final_llm_coding.py
+11_scores.py
+12_merging.py
 ```
 
-`15_final_llm_coding.py` codiert die finale Redestichprobe. `16_scores.py` berechnet Populismus- und GAL-TAN-Scores. `17_merging.py` verknüpft die ursprünglichen Rededaten mit den LLM-Scores.
+`10_final_llm_coding.py` codiert die finale Redestichprobe. `11_scores.py` berechnet Populismus- und GAL-TAN-Scores. `12_merging.py` verknüpft die ursprünglichen Rededaten mit den LLM-Scores.
 
 ### 4. Umfrageintervalle und deskriptive Statistiken
 
 ```text
-18_polling_intervals.py
-19_deskriptive_statistiken.py
+13_polling_intervals.py
+14_deskriptive_statistiken.py
 ```
 
 Diese Skripte ordnen Reden Umfrageintervallen zu, aggregieren Daten auf Partei- und Mainstream-Ebene und erzeugen deskriptive Statistiken.
@@ -137,11 +135,11 @@ Hinweis: Die Datei `data/processed/final_analysis/02_speech_level_with_polling.c
 ### 5. H1 bis H1c: positionelle Annäherung
 
 ```text
-20_hypothesis1.py
-21_hypothesis1_mainstream.py
-22_hypothesis1a.py
-23_hypothesis1b.py
-24_hypothesis1c.py
+15_hypothesis1.py
+16_hypothesis1_mainstream.py
+17_hypothesis1a.py
+18_hypothesis1b.py
+19_hypothesis1c.py
 ```
 
 Diese Skripte prüfen den Zusammenhang zwischen AfD-Unterstützung und positioneller Annäherung auf der GAL-TAN-Dimension. Enthalten sind Modelle auf Partei-Intervall-Ebene sowie aggregierter Mainstream-Ebene und Moderationsanalysen.
@@ -149,7 +147,7 @@ Diese Skripte prüfen den Zusammenhang zwischen AfD-Unterstützung und positione
 ### 6. FF1
 
 ```text
-25_research_question1.py
+20_research_question1.py
 ```
 
 FF1 untersucht, ob sich GAL-TAN-Subdimensionen hinsichtlich ihres Zusammenhangs mit der AfD-Unterstützung unterscheiden.
@@ -157,25 +155,31 @@ FF1 untersucht, ob sich GAL-TAN-Subdimensionen hinsichtlich ihres Zusammenhangs 
 ### 7. H2 bis H2c: rhetorische Annäherung
 
 ```text
-27_hypothesis2.py
-28_hypothesis2_mainstream.py
-29_hypothesis2a.py
-30_hypothesis2b.py
-31_hypothesis2c.py
+21_hypothesis2.py
+22_hypothesis2_mainstream.py
+23_hypothesis2a.py
+24_hypothesis2b.py
+25_hypothesis2c.py
 ```
 
 Diese Skripte prüfen den Zusammenhang zwischen AfD-Unterstützung und populistischer Kommunikation der Mainstream-Parteien.
 
-### 8. FF2, FF3/FF4, AfD-Zusatzanalyse und finale Abbildungen
+### 8. FF2
 
 ```text
-32_research_question2.py
-33_research_question3_4.py
-34_afd_check.py
-35_figures.py
+26_research_question2.py
+```
+FF2 untersucht, ob sich Populismus-Subdimensionen hinsichtlich ihres Zusammenhangs mit der AfD-Unterstützung unterscheiden.
+
+### 9. FF3/FF4, AfD-Zusatzanalyse und finale Abbildungen
+
+```text
+27_research_question3_4.py
+28_afd_check.py
+29_figures.py
 ```
 
-FF2 untersucht Unterschiede zwischen Merkmalen populistischer Kommunikation. FF3/FF4 analysieren das Verhältnis rhetorischer und inhaltlicher Annäherung. `34_afd_check.py` prüft ergänzend, ob sich auch die AfD selbst über die Zeit bzw. mit zunehmender Unterstützung verändert. `35_figures.py` erzeugt finale Abbildungen.
+FF3/FF4 analysieren das Verhältnis rhetorischer und inhaltlicher Annäherung. `28_afd_check.py` prüft ergänzend, ob sich auch die AfD selbst über die Zeit bzw. mit zunehmender Unterstützung verändert. `29_figures.py` erzeugt finale Abbildungen.
 
 ## Zentrale finale Analysedatensätze
 
