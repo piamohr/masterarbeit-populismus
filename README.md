@@ -11,6 +11,10 @@ Ziel des Projekts ist es, den Einfluss des Erfolgs der AfD auf die Kommunikation
 
 Die zentralen Hypothesen prüfen, ob höhere AfD-Unterstützung mit geringeren positionellen Distanzen und höherer populistischer Kommunikation der Mainstream-Parteien zusammenhängt. Ergänzend werden Moderationseffekte durch ideologische Nähe, Stimmenverluste und Regierungs-/Oppositionsstatus sowie Unterschiede zwischen Subdimensionen untersucht.
 
+Das folgende Forschungsmodell fasst die untersuchten Zusammenhänge und Moderationseffekte zusammen:
+
+![Forschungsmodell der Masterarbeit](docs/forschungsmodell.png)
+
 ## Datenbasis
 
 Die Bundestagsreden stammen aus dem **Corpus der Plenarprotokolle des Deutschen Bundestages (CPP-BT)** von Sean Fobbe. Verwendet wird die speech-level Parquet-Datei:
