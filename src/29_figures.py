@@ -249,9 +249,10 @@ def draw_interaction_panel(
             markeredgecolor="black",
         )
 
-    ax.set_title(panel_title, fontsize=10, pad=8)
+    ax.set_title(panel_title, fontsize=12, pad=8)
     ax.set_xlabel("AfD-Unterstützung in Prozentpunkten")
-    ax.set_ylabel(y_label)
+    ax.set_ylabel(y_label, fontsize=12)
+    ax.tick_params(axis="both", labelsize=11)
     ax.grid(axis="y", linewidth=0.5, color="0.88")
     remove_chart_junk(ax)
 
@@ -298,6 +299,7 @@ def create_paired_interaction_plot(
         ncol=min(5, len(labels)),
         handlelength=2.8,
         columnspacing=1.3,
+        fontsize=11,
     )
 
     fig.tight_layout(rect=(0, 0.12, 1, 1), w_pad=2.5)
@@ -490,11 +492,12 @@ def draw_pairwise_matrix_panel(
         dimensions,
         rotation=40,
         ha="right",
+        fontsize=11,
     )
-    ax.set_yticklabels(dimensions)
-    ax.set_xlabel(x_axis_label)
-    ax.set_ylabel(y_axis_label)
-    ax.set_title(panel_title, fontsize=10, pad=8)
+    ax.set_yticklabels(dimensions, fontsize=11)
+    ax.set_xlabel(x_axis_label, fontsize=12)
+    ax.set_ylabel(y_axis_label, fontsize=12)
+    ax.set_title(panel_title, fontsize=12, pad=8)
 
     for i in range(n):
         for j in range(n):
@@ -517,7 +520,7 @@ def draw_pairwise_matrix_panel(
                 text,
                 ha="center",
                 va="center",
-                fontsize=8.2,
+                fontsize=10.2,
                 color=text_color,
             )
 
@@ -644,10 +647,10 @@ def create_paired_pairwise_matrix(
     )
     colorbar.set_label(
         "Absolute Differenz der\nRegressionskoeffizienten",
-        fontsize=9,
+        fontsize=11,
         labelpad=10,
     )
-    colorbar.ax.tick_params(labelsize=8)
+    colorbar.ax.tick_params(labelsize=10)
 
     save_figure(fig, filename_stem)
     plt.close(fig)
@@ -755,8 +758,9 @@ def create_score_and_afd_poll_plot(
             zorder=2,
         )
 
-    score_ax.set_xlabel("Datum der Umfrage")
-    score_ax.set_ylabel(y_label)
+    score_ax.set_xlabel("Datum der Umfrage", fontsize=12)
+    score_ax.set_ylabel(y_label, fontsize=12)
+    score_ax.tick_params(axis="both", labelsize=11)
     score_ax.grid(axis="y", linewidth=0.5, color="0.88", zorder=0)
     score_ax.grid(axis="x", visible=False)
     remove_chart_junk(score_ax)
@@ -773,7 +777,8 @@ def create_score_and_afd_poll_plot(
     linewidth=2.0,
     zorder=4,
 )
-    poll_ax.set_ylabel("AfD-Umfragewert in Prozentpunkten")
+    poll_ax.set_ylabel("AfD-Umfragewert in Prozentpunkten", fontsize=12)
+    poll_ax.tick_params(axis="y", labelsize=11)
     poll_ax.spines["top"].set_visible(False)
     poll_ax.spines["right"].set_linewidth(0.8)
 
@@ -788,6 +793,7 @@ def create_score_and_afd_poll_plot(
         ncol=4,
         handlelength=2.8,
         columnspacing=1.3,
+        fontsize=11
     )
 
     fig.tight_layout()
